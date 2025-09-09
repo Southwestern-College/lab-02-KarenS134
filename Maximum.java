@@ -1,4 +1,4 @@
-
+/*@Karen Sandoval */
 // Karen Sandoval and Julius Renteria //
 import java.util.Scanner;
 
@@ -20,15 +20,17 @@ public class Maximum {
         } else
             max = number2;
 
+        if (number1 >= number3) {
+            max = number1;
+        } else
+            max = number3;
+
         if (number2 >= number3) {
             max = number2;
         } else
             max = number3;
 
-        if (number1 >= number3) {
-            max = number1;
-        } else
-            max = number3;
+
         System.out.println("This is the max of the numbers you entered:" + max);
         // Max output //
     }
